@@ -1,8 +1,94 @@
 Notebook[
   {
     Cell[StyleData[StyleDefinitions -> FrontEnd`FileName[
-      {$InstallationDirectory, "SystemFiles", "FrontEnd", "StyleSheets"}, "ReverseColor.nb"
-    ]]]
+      {$InstallationDirectory, "SystemFiles", "FrontEnd", "StyleSheets"}, "Default.nb"
+    ]]],
+    Cell[StyleData["Notebook"],
+      FontColor->RGBColor[1, 1, 1],
+      Background->GrayLevel[ 0.2],
+      CellBracketOptions->{
+        "Color"->RGBColor[0.3, 0.3, 0.3],
+        "HoverColor"->RGBColor[0.14901960784313725`, 0.5450980392156862, 0.8235294117647058]},
+        AutoStyleOptions->{
+          "CommentStyle"->{
+            FontColor -> RGBColor[0.89, 0.56, 1.],
+            ShowAutoStyles -> False,
+            ShowSyntaxStyles -> False,
+            AutoNumberFormatting -> False
+          },
+          "ExcessArgumentStyle"->{
+            FontColor -> RGBColor[0.8627450980392157, 0.19607843137254902`, 0.1843137254901961]
+          },
+          "FunctionLocalVariableStyle"->{
+            FontColor -> RGBColor[0.52549, 0.843137, 1.]
+          },
+          "GraphicsCompatibilityProblemStyle"->{
+            FontColor -> RGBColor[0.8627450980392157, 0.19607843137254902`, 0.1843137254901961]
+          },
+          "LocalScopeConflictStyle"->{
+            FontColor -> RGBColor[0.8274509803921568, 0.21176470588235294`, 0.5098039215686274]
+          },
+          "LocalVariableStyle"->{
+            FontColor -> RGBColor[0., 0.8200000000000001, 0.32]
+          },
+          "MissingArgumentStyle"->{
+            FontColor -> RGBColor[0.8627450980392157, 0.19607843137254902`, 0.1843137254901961]
+          },
+          "MisspelledWordStyle"->{
+            FontColor -> RGBColor[0.8274509803921568, 0.21176470588235294`, 0.5098039215686274]
+          },
+          "NoKernelPresentStyle"->{
+            FontColor -> RGBColor[0.16470588235294117`, 0.6313725490196078, 0.596078431372549]
+          },
+          "PatternVariableStyle"->{
+            FontColor -> RGBColor[0.11, 1., 0.08],
+            FontSlant -> "Italic"
+          },
+          "StringStyle"->{
+            FontColor -> RGBColor[0.98, 0.71, 0.],
+            ShowAutoStyles -> False,
+            ShowSyntaxStyles -> False,
+            AutoNumberFormatting -> False
+          },
+          "UndefinedSymbolStyle"->{
+            FontColor -> RGBColor[0.42, 0.94, 1]
+          },
+          "UnknownOptionStyle"->{
+            FontColor -> RGBColor[0.8627450980392157, 0.19607843137254902`, 0.1843137254901961]
+          },
+          "UnwantedAssignmentStyle"->{
+            FontColor -> RGBColor[0.8627450980392157, 0.19607843137254902`, 0.1843137254901961]
+          }
+        },
+        CodeAssistOptions->{
+          "AutoConvertEnable"->False,
+          "HeadHighlightStyle"->{
+            Background -> None,
+            FontColor -> RGBColor[1, 1, 0],
+            FontWeight -> Bold
+          },
+          "MatchHighlightStyle"->{
+            Background -> None,
+            FontColor -> RGBColor[1, 1, 0],
+            FontWeight -> Bold
+          }
+        }
+      ],
+    Cell[StyleData["Input"],
+      FontWeight -> Plain
+    ],
+    Cell[StyleData["Code"],
+      FontWeight -> Plain
+    ],
+    Cell[StyleData["InitializationCell"],
+      Background->GrayLevel[0.3],
+      CellBracketOptions-> {
+        "Color" -> GrayLevel[1]
+      }
+    ]
+
+  
+  
   },
   PrivateNotebookOptions->{"FileOutlineCache"->False},
   TrackCellChangeTimes->False
