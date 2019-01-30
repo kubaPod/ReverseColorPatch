@@ -1,2 +1,2 @@
 # ReverseColorPatch
-Mathematica stylesheet which inherits and corrects problems with built-in ReverseColor.nb.
+Mathematica stylesheet which inherits from and corrects problems in built-in ReverseColor.nb.
