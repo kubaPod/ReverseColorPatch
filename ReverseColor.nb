@@ -1,0 +1,9 @@
+Notebook[
+  {
+    Cell[StyleData[StyleDefinitions -> FrontEnd`FileName[
+      {$InstallationDirectory, "SystemFiles", "FrontEnd", "StyleSheets"}, "ReverseColor.nb"
+    ]]]
+  },
+  PrivateNotebookOptions->{"FileOutlineCache"->False},
+  TrackCellChangeTimes->False
+]
